@@ -1,0 +1,451 @@
+body{
+  margin: 0px;
+  font-family: 'Poppins';
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  height: 50px;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 10px;
+  color: white;
+}
+
+a{
+  padding: 10px;
+  text-decoration: none;
+}
+
+#logo{
+  display: flex;
+  background-image:url(immagini/LOGO_DL_SVG.svg);
+  background-position: center;
+  background-size: cover;
+  margin: 0px 150px 0px 0px;
+  width: 20px;
+  height: 20px;
+}
+
+#logo2{
+  display: flex;
+  background-image:url(immagini/LOGO_DL_SVG.svg);
+  background-position: center;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+
+#login{
+  display: flex;
+  background-image: url(immagini/LOGIN_SVG_white.svg);
+  background-position: center;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+
+header {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+header #immagine-che-scorre{
+  width: 100%;
+  height: 100%;
+
+}
+
+.bottoni{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  gap: 10px;
+  bottom: 35px;
+}
+
+#cambia-immagine{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+section #grazie{
+  background-color: #41b2d4;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  padding: 24px;
+  margin: 0px;
+}
+
+.titolo{
+  display: flex;
+  color: black;
+  padding: 20px 20px 48px 20px;
+  margin: 0px;
+  font-size: 2.5em;
+  justify-content: center;
+}
+
+.container1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.container1 img{
+  height: 350px;
+}
+
+.main-box{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 500px;
+  gap: 30px;
+}
+
+.flex-item1{
+  display: flex;
+  flex-direction: column;
+  text-align: center; 
+}
+
+.flex-item1 h4{
+  display: flex;
+  font-size: 5rem;
+  margin-top: 320px;
+  margin-bottom: 1.5em;
+}
+
+h4{
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+}
+
+.button a{
+  display: inline-block;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 20px;
+  color: white;
+  justify-content: center;
+  background-image: linear-gradient(180deg, #86db00, #009100);
+}
+
+.button2 a{
+  color: black;
+  background-image: linear-gradient(180deg, #fafafa, #d6dadd);
+}
+
+.container2{
+  background-image: url(immagini/SFONDO_I_NOSTRI_NUMERI.webp);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  height: 500px;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  color: white;
+}
+
+.container2 h2{
+  z-index: 1;
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px 48px 20px;
+  color: white;
+}
+
+.container2 .overlay{
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  position: absolute;    
+}
+
+.flex-item2{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px 20px 0px 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  z-index: 1;
+}
+
+.flex-item2 h2{
+  font-size: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.flex-item2 p{
+  font-size: 0.5em;
+  margin: 0px;
+  padding: 0px;
+}
+
+.risultati-clienti{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap:20px;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  position: relative;
+}
+
+#album-view{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px 20px;
+  justify-content: center;
+}
+
+
+.risultati-clienti img{
+  width: 350px;
+  height: 350px;
+}
+
+.container3{
+  display: flex;
+  background-color: #e4e8f1;;
+  flex-direction: column;
+  height: 800px;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.container3 h3{
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.main-box3{
+  display: flex;
+  justify-content: row;
+  margin: 24px 0px;
+}
+
+.flex-item3{
+  display: flex;
+  justify-content: left;
+  width: 50%;
+  padding: 0px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.flex-item3 img{
+   width: 100%;
+}
+
+.flex-item3 h3{
+  padding: 0px 0px 0px 15px;
+  justify-content: left;
+}
+
+.best-seller-box{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: ghostwhite;
+  padding: 15px;
+  height: 100%;
+}
+
+.best-seller-box a{
+  text-align: center;
+}
+
+#prezzo{
+  color: #62a5c2;
+  font-size: 3em;
+  font-weight: bold;
+  margin:0px;
+}
+
+#sottotiolo{
+  color: #1e354b;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.best-seller-button{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+details{
+  padding: 0.5rem 0;
+  border-bottom: 1px solid black;
+}
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+footer img{
+  width: 40px;
+  height: 40px;
+}
+
+.flex-item h4{
+  color: #62a5c2;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 16px 0px;
+}
+
+.flex-item a{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.icone{
+  margin: 10px;
+  display: flex;
+  width: 35px;
+  height: 35px;
+  flex-direction: row;
+  padding: 0px;
+  
+}
+
+#facebook{
+  background-image: url(immagini/);
+  background-position: center;
+  background-size: cover;
+
+}
+
+#instagram{
+  background-image: url(immagini/);
+  background-position: center;
+  background-size: cover;
+}
+
+#youtube{
+  background-image: url(immagini/ICONA_YOUTUBE.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+#twitter{
+  background-image: url(immagini/ICONA_X.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+#tiktok{
+  background-image: url(immagini/ICONA_TIKTOK.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+#linkedin{
+  background-image: url(immagini/ICONA_LINKEDIN.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+#spotify{
+  background-image: url(immagini/ICONA_SPOTIFY_2.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.prova-app{
+  background-color: #003b65;
+}
+
+h1.titolo{
+  color: #62a5c2;
+  font-size: 4em;
+}
+
+h3.titolo{
+  color: white;
+  font-size: 1.7em;
+}
+
+.store{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+.app-store{
+  background-image: url(immagini/appstore3.webp);
+  background-position: center;
+  background-size: cover;
+  width: 221px;
+  height: 66px;
+  margin-bottom: 20px;
+}
+
+.play-store{
+  background-image: url(immagini/playstore3.webp);
+  background-position: center;
+  background-size: cover;
+  width: 221px;
+  height: 66px;
+}
+
+.img-app{
+  display: block;
+  justify-content: center;
+  width: 940px;
+  height: 330px;
+  margin: 0px;
+}
+
+#modal-view.hidden{
+  display: none;
+}
+
+#modal-view{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-view img{
+  max-width: 100%;
+  max-height: 100%;
+}
